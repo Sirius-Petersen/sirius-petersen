@@ -1,23 +1,22 @@
-# Automaten.dk – finjusteret hjemmeside (v5)
+# Automaten.dk — designopdatering v6
 
-Hjemmesiden ligger i mappen `automaten/` og publiceres via GitHub Pages.
+En responsiv statisk præsentationsside til GitHub Pages med fire automater, en interaktiv demonstration, tydelige produktdetaljer og forespørgselsflow for køb eller leje.
 
-## Hvad er nyt?
+## Design
+- Dybere skovgrøn hero med diskret lys, 3D-inspirerede illustrationer og varme gyldne detaljer.
+- Ensartet typografi, mere luft og mere raffinerede produktkort med studieagtig baggrund.
+- Forbedrede skygger, mere rolig kontrast og finpudset mobilvisning.
+- Animationer tager hensyn til indstillingen for reduceret bevægelse.
 
-- Læsbare detaljefelter for hver af de fire automater, inklusive en forklaring af slave-modulet.
-- Skift mellem køb og leje direkte i forespørgslen uden at miste indtastede oplysninger.
-- Tydeligere navigationsmarkering, bedre fokusstyring og forbedret mobilmenu.
-- Korrigerede metadata, tilpasset reduceret bevægelse og et mere konsekvent produktlayout.
+## Funktioner og begrænsninger
+- Fire automater med mulighed for at spørge om køb eller leje. Snackautomat kan forespørges med slave-modul.
+- Kunden kan sende en e-mail via egen mailklient eller Gmail eller kopiere en færdig forespørgsel.
+- Kontaktadresse: `siriussjov2@gmail.com`.
+- **Der gennemføres ikke automatisk betaling eller ordrebekræftelse på GitHub Pages.** Formuleringerne på siden afspejler det.
+- Automaterne er illustrative tegninger, ikke fotos af de konkrete maskiner; specifikationer og endelige priser skal bekræftes.
 
-## Kontakt og forespørgsler
-
-Kunder kan åbne en e-mailkladde i deres mailprogram eller Gmail eller kopiere den færdige besked. **Ingen e-mail bliver sendt automatisk, og der foretages ingen kortbetaling.** Kontaktadressen er `siriussjov2@gmail.com`.
-
-Priser, maskinernes præcise specifikationer og leveringsvilkår skal aftales særskilt. De nuværende maskinbilleder er illustrationer.
-
-## Vedligehold
-
-- `automaten/index.html`: indhold og opsætning.
-- `automaten/assets/site.css`: farver, typografi, layout og animationer.
-- `automaten/assets/site.js`: produktdetaljer, demo, navigation og kontakt.
-- `automaten/assets/*.svg`: illustrationer.
+## Redigering
+- `index.html`: indhold, struktur og kontaktkonfiguration.
+- `assets/site.css`: design og tilpasning til skærmstørrelser.
+- `assets/site.js`: knapper, bestillingspanel, formularer og interaktive animationer.
+- `assets/*.svg`: illustrationer.
