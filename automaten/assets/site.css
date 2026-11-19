@@ -147,3 +147,30 @@ body{min-width:320px}
  #backTop{transition:none}
  .hero-unit{will-change:auto}
 }
+
+
+/* Finjustering 2026-11-19: diskret detaljevisning og lettere bestillingsflow */
+.links a{position:relative;text-underline-offset:5px}
+.links a::after{content:"";position:absolute;left:0;bottom:-10px;width:100%;height:2px;background:#b6844a;transform:scaleX(0);transform-origin:left;transition:transform .2s ease}
+.links a:hover::after,.links a[aria-current="location"]::after{transform:scaleX(1)}
+.links a[aria-current="location"]{color:#946c32}
+.product-detail{padding:18px 20px;margin:12px 0 0;background:linear-gradient(150deg,#f0f5eb,#eaf0e8);border:1px solid #d5e0d3;border-radius:16px;box-shadow:inset 0 1px 0 #fff9}
+.product-detail[hidden]{display:none!important}
+.product-detail h4{font:800 14px/1.4 Manrope,sans-serif;margin:0 0 10px;color:#174734}
+.product-detail ul{margin:0;padding-left:19px;display:grid;gap:8px;color:#3a5547}
+.product-detail li{font-size:12px;line-height:1.65}
+.product-detail p{font-size:11px;line-height:1.5;margin:12px 0 0;color:#56705e}
+.prod-link[aria-expanded="true"]{color:#ad6840}
+.order-choice{margin:2px 0 16px}
+.order-choice-heading{display:block;color:#587367;font-size:11px;font-weight:800;letter-spacing:.04em;margin-bottom:9px}
+.order-choice-buttons{display:grid;grid-template-columns:1fr 1fr;gap:5px;border:1px solid #d2dfd2;border-radius:13px;padding:5px;background:#eef3eb}
+.order-choice-buttons button{border:1px solid transparent;background:transparent;color:#345548;border-radius:9px;padding:12px 9px;min-height:44px;font-weight:800;font-size:13px;transition:background .16s,box-shadow .16s,color .16s}
+.order-choice-buttons button[aria-pressed="true"]{background:#174a38;color:white;box-shadow:0 3px 10px #12352928}
+.order-choice-buttons button:not([aria-pressed="true"]):hover{background:#dce9de}
+.order-choice-buttons button:active{transform:scale(.985)}
+@media(max-width:950px){.links a::after{display:none}.links a[aria-current="location"]{font-weight:800}}
+@media(prefers-reduced-motion:reduce){.links a::after,.order-choice-buttons button{transition:none}}
+
+/* Expanded cards grow naturally, without stretching every other card in the row. */
+.catalog.details-open{align-items:start}
+.catalog.details-open .prod{align-self:start}
