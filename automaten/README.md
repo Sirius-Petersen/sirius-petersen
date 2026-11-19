@@ -1,25 +1,23 @@
-# Automaten.dk – optimeret GitHub Pages-side (v4)
+# Automaten.dk – finjusteret hjemmeside (v5)
 
-Offentlig URL: https://sirius-petersen.github.io/sirius-petersen/automaten/
+Hjemmesiden ligger i mappen `automaten/` og publiceres via GitHub Pages.
 
-Kopier filerne til mappen `automaten/` i GitHub-repositoriet `Sirius-Petersen/sirius-petersen`. Ingen server, database eller betalingskonto påkrævet.
+## Hvad er nyt?
 
-## Optimeringer
+- Læsbare detaljefelter for hver af de fire automater, inklusive en forklaring af slave-modulet.
+- Skift mellem køb og leje direkte i forespørgslen uden at miste indtastede oplysninger.
+- Tydeligere navigationsmarkering, bedre fokusstyring og forbedret mobilmenu.
+- Korrigerede metadata, tilpasset reduceret bevægelse og et mere konsekvent produktlayout.
 
-- Designet er bevaret, men CSS og JavaScript er flyttet til separate filer, som browseren kan cache.
-- SVG-illustrationerne er flyttet til egne filer. Produktbillederne indlæses først, når de er ved at blive synlige. Hero-illustrationen hentes med høj prioritet.
-- Det animerede design respekterer reduceret bevægelse, og sneeffekter deaktiveres på mobil og ved databesparende forbindelse.
-- Forbedrede touch-mål og formularfelter, så mobilbrowseren ikke zoomer ved indtastning.
-- Delbare links til konkrete automater, fx `?automat=snack&valg=leje&slave=1`.
-- Tilbage-til-toppen-knap og bedre mobilnavigation.
-- Tilgængelige knapper, tydelige mailkladdestatusser, SEO-metadata og strukturerede grunddata.
+## Kontakt og forespørgsler
 
-## Bestilling og kontakt
+Kunder kan åbne en e-mailkladde i deres mailprogram eller Gmail eller kopiere den færdige besked. **Ingen e-mail bliver sendt automatisk, og der foretages ingen kortbetaling.** Kontaktadressen er `siriussjov2@gmail.com`.
 
-Der er 4 maskintyper og en valgfri slave til snackautomaten. Brugere vælger køb eller leje, udfylder kontaktoplysninger og kan åbne en e-mailkladde, Gmail eller kopiere en komplet forespørgsel inkl. modtager og emne. Dette er ikke en automatisk afsendelse og der trækkes ingen betaling.
+Priser, maskinernes præcise specifikationer og leveringsvilkår skal aftales særskilt. De nuværende maskinbilleder er illustrationer.
 
-Kontaktadresse: `siriussjov2@gmail.com`. Den står flere steder, herunder i `index.html` og de offentlige indstillinger i samme fil.
+## Vedligehold
 
-Priser, betaling og maskinernes konkrete stand bekræftes individuelt. Virksomhedsadresse/CVR er ikke indsat, da oplysningerne ikke er dokumenteret.
-
-Illustrationerne er ikke fotografier af konkrete maskiner. Evt. nye fotos kan sættes ind i produktkortene.
+- `automaten/index.html`: indhold og opsætning.
+- `automaten/assets/site.css`: farver, typografi, layout og animationer.
+- `automaten/assets/site.js`: produktdetaljer, demo, navigation og kontakt.
+- `automaten/assets/*.svg`: illustrationer.
